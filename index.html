@@ -3,16 +3,99 @@
 	<head>
 
 	<style>
-		#profile_row {
-			display: inline;
-			background-color: grey;
-		}
-		#profile_header {
-			width: 200px;
-			height: 200px;
-			background-color: grey;
 
+		.html {
+			font-size: 0;
 		}
+
+		.div {
+			font: 10px Calibri #000000;
+		}
+
+		#profile_row {
+			display: flex;
+		}
+
+		#tech_skills {
+			display: flex;
+		}
+
+		#education {
+			display: flex;
+		}
+
+		#tech_exp {
+			display: flex;
+		}
+
+		#prof_exp {
+			display: flex;
+		}
+
+		.profile{
+			display: inline-block;
+			background-color: grey;
+		}
+
+		.tech_skills {
+			display: inline-block;
+		}
+
+		.education {
+			display: inline-block;
+			background-color: grey;
+		}
+
+		.tech_exp {
+			display: inline-block;
+		}
+
+		.prof_exp {
+			display: inline-block;
+			background-color: grey;
+		}
+
+		#profile_header {
+			width: 15%;
+		}
+
+		#profile_content {
+			width: 65%;
+		}
+
+		#tech_skills_header {
+			width: 15%;
+		}
+
+		#tech_skills_content {
+			width: 65%;
+		}
+
+		#education_header {
+			width: 15%;
+		}
+
+		#education_content {
+			width: 65%;
+		}
+
+		#tech_exp_header {
+			width: 15%;
+		}
+
+		#tech_exp_content {
+			width: 65%;
+		}
+
+		#prof_exp_header {
+			width: 15%;
+		}
+
+		#prof_exp_content {
+			width: 65%;
+		}
+
+
 	</style>
 		<title>Nicholas Tillman - 2018 Resume</title>
 	</head>
@@ -22,63 +105,85 @@
 		</div>
 
 		<div id="profile_row">
-			<div id="profile_header">
+			<div id="profile_header" class="profile">
 				PROFILE
 			</div>
-			<div id="profile_content">
-					Technically inclined, former custom art framer and graphic designer with a passion for smart,
-					elegant design in all fields. Seeking a junior developer role where I can continue to grow as a
-					programmer and continue my pursuit of the merger of technology and design.
+			<div id="profile_content" class="profile">
+					Technically inclined, former custom art framer and graphic designer with a passion for smart,<br>
+					elegant design in all fields. Seeking a junior developer role where I can continue to grow as a<br>
+					programmer and continue my pursuit of the merger of technology and design.<br>
 			</div>
 		</div>
 
 		<div id="tech_skills">
-			<div id="tech_skills_header">
+			<div id="tech_skills_header" class="tech_skills">
 				TECHNICAL SKILLS
 			</div>
-			<div id="tech_skills_content">
-					Object Oriented Programming: Java
-					Web Applications Development: HTML, CSS, Javascript, jQuery
-					Development Tools: Eclipse, Visual Studio Code, Git
-					Imaging Software: Adobe Photoshop, Adobe Illustrator
+			<div id="tech_skills_content" class="tech_skills">
+					Object Oriented Programming: Java<br>
+					Web Applications Development: HTML, CSS, Javascript, jQuery<br>
+					Development Tools: Eclipse, Visual Studio Code, Git<br>
+					Imaging Software: Adobe Photoshop, Adobe Illustrator<br>
 			</div>
 
 		</div>
 
 		<div id="education">
-			<div id="education_header">
+			<div id="education_header" class="education">
 				EDUCATION
 			</div>
-			<div id="education_content">
-					Tech Elevator, Full Stack Certification Sept. 2018 - Present
-					14 week full stack Java coding bootcamp whose curriculum includes object oriented, database, server and client side web
-					programming.
-					University of Cincinnati, Raymond Walters 2006 - 2008
-					Studied coursework in pursuit of BA in graphic design.
+			<div id="education_content" class="education">
+					Tech Elevator, Full Stack Certification Sept. 2018 - Present<br>
+					14 week full stack Java coding bootcamp whose curriculum includes object oriented, database, server and client side web<br>
+					programming.<br>
+					University of Cincinnati, Raymond Walters 2006 - 2008<br>
+					Studied coursework in pursuit of BA in graphic design.<br>
 			</div>
 
 		</div>
 
 		<div id="tech_exp">
-			<div id="tech_exp_header">
+			<div id="tech_exp_header" class="tech_exp">
 				TECHNICAL EXPERIENCE
 			</div>
-			<div id="tech_exp_content">
-					Vending Machine Software
-					Java based program emulating the functions of a vending machine by implementing classes that use encapsulation,
-					inheritance and polymorphism.
-					National Park Campground Reservation Software
-					Java based program that takes in user input and implements JDBC Dao objects to make SQL queries and inserts against a
-					postgresSQL database, returning valid results and checking for overlaps in dates.
+			<div id="tech_exp_content" class="tech_exp">
+					Vending Machine Software<br>
+					Java based program emulating the functions of a vending machine by implementing classes that use encapsulation,<br>
+					inheritance and polymorphism.<br>
+					National Park Campground Reservation Software<br>
+					Java based program that takes in user input and implements JDBC Dao objects to make SQL queries and inserts against a<br>
+					postgresSQL database, returning valid results and checking for overlaps in dates.<br>
 			</div>
 
 		</div>
 		<div id="prof_exp">
-			<div id="prof_exp_header">
+			<div id="prof_exp_header" class="prof_exp">
 				PROFESSIONAL EXPERIENCE
 			</div>
-			<div id="prof_exp_content">
-
+			<div id="prof_exp_content" class="prof_exp">
+					Amazon , Sortation Associate 2017-2018<br>
+					Personally handled the sortation of over 1000 packages daily, making sure they were placed in the proper zone for<br>
+					distribution to customers at a rapid and continuous pace.<br>
+					Target , Merchandise and Backroom Associate 2015-2017<br>
+					Ensured new products were brought out to the sales floor in a timely fashion to replenish out of stock products and<br>
+					managed overflow products brought to the backroom where they would be sorted and stowed using our inventory<br>
+					management system.<br>
+					Frame USA , Senior Custom Framer 2011-2013<br>
+					Responsible for completing all customer framing projects, which included but was not limited to: shadowbox<br>
+					memorabilia, needlepoint, canvas art, paper art and posters.<br>
+					Adapted to customers frequently changing specifications, ideas and deadlines in order to guarantee satisfaction and<br>
+					generate repeat customers.<br>
+					Coordinated with sales associates on all framing projects, utilizing my knowledge to ensure finished products had correct<br>
+					measurements, logical design layouts and were structurally safe.<br>
+					Michaels Arts and Crafts , Senior Certified Framer 2007-2011<br>
+					Guided customers in choosing the right frames, mats and layout for their various art pieces using my extensive product<br>
+					and design knowledge.<br>
+					Developed finished products for customers within our frame workshop utilizing a diverse set of tools and techniques,<br>
+					ensuring quality, longevity and complete client satisfaction.<br>
+					Maintained a high volume of work flow while overseeing multiple customer projects on a daily basis.<br>
+					Circuit City , Product Specialist 2004-2007<br>
+					Aided customers needs with specialized knowledge in small and portable electronics, media, desktop computers,<br>
+					networking and software.<br>
 			</div>
 
 		</div>
